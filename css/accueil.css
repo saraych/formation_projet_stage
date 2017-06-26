@@ -1,0 +1,24 @@
+    
+body{
+    margin: 0; 
+    
+}
+#recherche {
+   
+    text-align: -webkit-center;
+}
+h1{
+    font-size: 30px;
+}
+#srch{
+   
+    background-color: transparent;
+ border-radius: solid black 3px;
+    font-size: 25px;
+}
+#mis{
+    position: absolute;
+    padding-top: 12px;
+    margin-left: -2%;
+    font-size: 32
+}

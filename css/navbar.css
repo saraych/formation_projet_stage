@@ -1,0 +1,121 @@
+
+body{
+   /* background-color: indianred;
+    */
+    margin: 0;
+    padding: 0;
+    
+}
+.home{
+    margin: 0;
+}
+#nav_commun{
+    
+    /*margin-left: 156px;*/
+   /*margin-bottom: 25px;*/
+    padding-top: 21px;
+    padding: 10px;
+   
+}
+li{
+    display: inline;
+   /* display: inline-block;
+    margin-left: ;
+    font-size: ;*/
+    font-family: serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+ 
+}
+ul li a {
+    color: black;
+    text-decoration: none;}
+
+li{
+    padding: 35px;
+    list-style-type: none;
+    color: black; 
+    position: relative;
+    left: 52%;
+    font-size: 21px;
+    /*bottom: -17px;*/
+    top:30px;
+    letter-spacing: 0.023em;
+  
+}
+ul {
+    margin-top: -13px;
+    padding:0 ;
+}
+header.home{
+
+    background-color:beige;
+    background-size: cover;
+    position: relative;
+    height:5em ;
+    margin: 0;
+   /*position: fixed;
+     position:sttatoc
+     position: absolute;*/
+}
+.home {
+
+   /* position: fixed;
+    top;
+    left;
+    
+    height: ;
+  
+    letter-spacing: 0.023em;*/
+    
+}
+p{
+    /*margin-top: 5px;*/
+    position: absolute;
+    margin-left: 9%;
+    font-size: 24px;
+}
+#nav_commun {
+    position: relative;
+    margin-bottom: 0;
+  
+}
+#second{
+    background-image: url(pretty-woman-1509956_1280.jpg);
+    background-color: aqua;
+    color: aqua;
+   
+    background-repeat: no-repeat;
+   background-size: contain;
+    background-size: cover;
+}
+.logos{
+   
+    right:47%;
+    bottom: -6px;
+}
+    
+body{
+    margin: 0; 
+    
+}
+#recherche {
+   
+    text-align: -webkit-center;
+}
+h1{
+    font-size: 30px;
+}
+#srch{
+   
+    background-color: transparent;
+ border-radius: solid black 3px;
+    font-size: 25px;
+}
+#mis{
+    position: absolute;
+    padding-top: 12px;
+    margin-left: -2%;
+    font-size: 32
+}
