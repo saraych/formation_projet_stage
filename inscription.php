@@ -1,6 +1,7 @@
 <?php
-    require ("pdo.php");
-    extract($_POST);
+   require ("pdo.php");
+    //extract($_POST);
+  //  var_dump($_SESSION);
 
 if (!(empty($_POST)))
     {    
@@ -43,23 +44,17 @@ if (!(empty($_POST)))
         echo"<br/>password=".$passwordcrypt;
         
     $req->execute();
+    $res = $req->fetch();
+    header('location:accueil.php');
+    var_dump($_SESSION);
+    
         
     }
 ?>
-
-    <!DOCTYPE html>
-    <html lang="fr">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Inscription</title>
-        <link rel="stylesheet" href="Css/inscription.css">
-    </head>
-
-    <body>
-        <form class="for" action="inscription.php" method="POST">
-
-            <fieldset>
+                  <form class="for" action="inscription.php" method="POST">
+ <div class="form-group">
+               
+   <button type="button" class="clo">×</button><br/>
                 <div class="titre">
                     <h2> Inscrivez-vous</h2>
                 </div>
@@ -75,11 +70,10 @@ if (!(empty($_POST)))
                 <input type="password" name="password" placeholder="Mot de passe " required>
                 <input type="text" name="mail" placeholder="E-mail" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 <button type="submit" class="bouton"> Inscription </button>
-            </fieldset>
-
+        
+</div>
         </form>
 
-
-    </body>
-
-    </html>
+<script type="text/javascript" src="js/ins.js">
+</script>
+ 

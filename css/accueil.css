@@ -1,24 +1,158 @@
-    
-body{
-    margin: 0; 
-    
+   <link rel="stylesheet" href="css/accueil.css">  body {
+    background-color: red;
+    margin: 0;
+    padding: 0;
 }
+
+.home {
+    margin: 0;
+}
+
+#nav_commun {
+    display: block;
+}
+#back{
+    display: block;
+}
+p {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 5%;
+    font-size: 24px;
+    font-family: serif;
+}
+
+#nv li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nv li {
+    padding: 35px;
+    color: black;
+    left: 52%;
+    top: 30px;
+    letter-spacing: 0.023em;
+    display: inline-block;
+    /* margin-left: ;
+        font-size: ;
+        bottom: -17px;
+         position: relative;*/
+    font-family: serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 21px;
+}
+
+#nv {
+    margin-top: -13px;
+    position: relative;
+    margin-left: 34%;
+}
+
 #recherche {
-   
     text-align: -webkit-center;
 }
-h1{
+
+h1 {
     font-size: 30px;
 }
-#srch{
-   
+
+
+/* #srch {
+        background-color: transparent;
+        border-radius: solid black 3px;
+        font-size: 25px;
+    }
+    
+    #mis {
+        position: absolute;
+        padding-top: 12px;
+        margin-left: -2%;
+        font-size: 32
+    }
+*/
+
+header.home {
+    background-color: beige;
+    background-size: cover;
+}
+
+#container {
+    background-image: url(pretty-woman-1509956_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.logos {
+    right: 47%;
+    bottom: -6px;
+}
+
+body {
+    margin: 0;
+}
+
+#recherche {
+    text-align: -webkit-center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#srch {
     background-color: transparent;
- border-radius: solid black 3px;
+    border-radius: solid black 3px;
     font-size: 25px;
 }
-#mis{
-    position: absolute;
+
+#mis {
+    /*  position: absolute;*/
     padding-top: 12px;
     margin-left: -2%;
     font-size: 32
+}
+
+fieldset {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+a#onclick {
+    //cursor:pointer;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 3px;
+}
+
+.form {
+    border-radius:2px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 35px;
+float:left;
+}
+
+#connectdiv {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.73);
+    margin-left: 70%;
+    left: 0;
+    width: 28%;
+    height: 50%;
+    overflow: auto;
+    padding-top: 60px;
 }

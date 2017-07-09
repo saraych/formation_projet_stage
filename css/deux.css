@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 2;
+    background-color: ivory;
+}
+
+@font-face {
+font-family: 'Georgia', serif;
+    
+    font-family: "raleway-regular";}
+
+
+.test:hover {
+    border-bottom: 1px solid black;
+}
+
+#nv {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#nav_commun {
+    padding: 25px;
+    text-align: right;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  
+}
+
+nav ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav ul li:first-child {
+    float: left;
+    margin: -3px;
+    font-size: 1.4em;
+    /*padding-left:8%;*/
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 70px;
+    transition: all 0.1s linear 0s;
+}
+
+nav ul li a:hover {
+    color: black;
+    border-top: 0.5px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#back {
+    display: block;
+}
+
+#connectdiv {
+    z-index: 1;
+    position: absolute;
+    margin-left: 36%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 32%;
+    background-color: white;
+    overflow: auto;
+    /*padding-top: 60px;
+      width: 28%;
+      height: 50%;
+      margin-left: 70%;
+      height: 68%;
+      background-color:rgba(0,0,0,0.1);*/
+     text-align: center;
+     border: 1px solid black;
+   
+    border-radius: 3px;
+   
+}
+
+h1 {
+    font-size: 30px;
+    
+}
+
+#cache {
+    width: auto;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+button.close {
+    background-color: transparent;
+    z-index: 1;
+    border: none;
+    left: 89%;
+    font-size: xx-large;
+    border-radius: 0px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+#recherche {
+   
+   /* display: block;
+    margin-left: 48%;
+     position: absolute;
+    left: 45%;*/
+   text-align: center;
+    width: 100%;
+    z-index: 0;
+}
+button {
+    background-color: none;
+    background: transparent;
+    border: none;
+    display: inline-block;
+}
+/*i#srch {
+    margin-left: 44px;
+    font-size: 37px;
+    bottom: 34px;
+}
+
+input.search {
+    width: 75%;
+    height: 30px;
+    margin-bottom: 38px
+}
+
+form {
+    width: 61%;
+    margin: auto;
+}
+
+i#mis {
+    left: 22%;
+    font-size: 43px;
+    bottom: 10%;
+}
+
+.material-icons {
+    line-height: 2;
+}*/
+input.search {
+    width: 75%;
+  
+}
+material-icons {
+ top:17px;
+    position: relative;
+    font-size: 43px;
+}
+
+.rc{ position: absolute;
+
+    left: 20%;
+    width: 62%;
+    line-height: 6;
+}
+i#mis {
+    position: relative;
+    font-size: 43px;
+    
+    top: 36%;
+    
+    top: 14px;}
+.search{
+    height: 20px;
+    font-family: "logo";
+    
+    border-radius: 4px;
+   
+    width: 80%;
+}
+i#srch{
+    font-size: 43px;
+    position: relative;
+    top: 14px;
+}
+.loginimage{
+    background-color: aqua;
+    padding: 5%;
+    
+}
+
+.logintext{
+    padding:7%
+}
+input {
+    height: 31px;
+    font-family: "logo";
+    font-size: 12px;
+    width: 87%;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    padding-left: 6px;
+}
