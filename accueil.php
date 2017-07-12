@@ -57,8 +57,8 @@
     <link rel="stylesheet" href="css/inscription.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -91,78 +91,88 @@
 
         </header>
     </div>
-
-    <section id="first">
-
-        <h2> </h2>
-    </section>
-    <section id="second">
-
-    </section>
-
-    <div id="connectdiv" class="hidden animate">
-<div  class="loginimage" text-center> <h2>Identifiez-vous</h2></div>
-
-
-      <div class="logintext"> <form action="" method="POST" class="form" id="connect">
-
-            <button type="button" class="close">×</button><br />
-            <div class="form-group">
-                <div class="col-xs-6">
-                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+    <section class="first">
+        <div id="connectdiv" class="hidden animate">
+            <div class="loginimage" text-center>
+                <div class="ligne">
+                    <h2>Identifiez-vous</h2>
                 </div>
+                   
+<div class="groupicon">
+   <ul>
+       <li class="gary">
+           <a href="https://www.facebook.com/">
+            <span class="icon-fb">
+                    <i class="fa fa-facebook-square gigi" aria-hidden="true"></i>
+                </span>
+        </a>
+       </li>
+       <li class="gary">
+            <a href="https://accounts.google.com">
+        <span class="icon-gmail"><i class="fa fa-google-plus-square gigi" aria-hidden="true"></i></span>
+    </a>
+       </li>
+   <li class="gary">
+       <a href="https://www.linkedin.com">
+        <span class="icon-linkedin"><i class="fa fa-linkedin-square gigi" aria-hidden="true"></i></span>
+    </a>
+   </li>
+    <li class="gary">
+        <a href="https://twitter.com">
+        <span class="icon-twitter"><i class="fa fa-twitter-square gigi" aria-hidden="true"></i></span>
+    </a>
+    </li>
+   </ul>
+</div>
+
+</div>
+            <div class="logintext">
+                <form action="" method="POST" class="form" id="connect">
+                    <button type="button" class="close">×</button><br />
+
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input type="text" id="pseudo" name="pseudo" class="login-input" placeholder="Identifiant" required>
+                    <span> <i class="fa fa-lock" aria-hidden="true"></i></span>
+                    <input type="password" name="password" placeholder="Mot de passe " class="login-input" required>
+                    <div class="container-login">
+                        <input class="submit-login" type="submit" value="Connexion">
+                    </div>
+                </form>
             </div>
-<div class="col-xs-6">
-    <div class="form-group">
-        <input type="password" name="password" placeholder="Mot de passe " required></div>
+        </div>
 
-    <button type="submit" class="btn" value="Connexion">
-</button>
-
-    <li><a href="logout.php">Deconnexion</a></li>
-</div>
-
-
-
-</form>
-</div>
-</div> 
-
-
-
-<div class="bienvenue">
-    <?php
+        <div class="bienvenue">
+            <?php
          if(!empty($message))
          {?>
-        <strong><?php echo $message;?></strong>
-        <?php
+                <strong><?php echo $message;?></strong>
+                <?php
          }
         ?>
-</div>
-
-<section id="accueil">
-    <div id='recherche'>
-        <h1> Faite une recherche</h1>
-
-        <form action="" class="rc">
-          <fieldset>
-         <button><i id="mis" class="material-icons">home</i></button>
-            <input type="text" class="search" name="recherche" placeholder="rechercher une formation">
-            <button type="submit"><i id="srch" class="material-icons">search</i></button>
-      </fieldset>          
-</form>
         </div>
-       
-<div id="inscrip" class="hidden animate">
-    <?php 
+        <h1> Rechercher votre formation </h1>
+        <section id="accueil">
+            <div id='recherche'>
+
+
+                <form action="" class="rc">
+                    <fieldset>
+                        <button><i id="mis" class="material-icons">home</i></button>
+                        <input type="text" class="search" name="recherche" placeholder="recherchez">
+                        <button type="submit"><i id="srch" class="material-icons">search</i></button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id="inscrip" class="hidden animate">
+                <?php 
        include'inscription.php'?>
-</div>
+            </div>
+        </section>
+    </section>
 
-      </section>
-      <footer>
-          
-      </footer>
 
-  <script type="text/javascript" src="js/accueil.js"></script>
+    <script type="text/javascript" src="js/accueil.js"></script>
 </body>
+
 </html>

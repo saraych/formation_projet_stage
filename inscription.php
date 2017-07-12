@@ -61,11 +61,7 @@ if (!(empty($_POST)))
 
                 <input type="text" name="name" placeholder="Nom" required pattern="[a-zA-Z0-9-]+">
                 <input type="text" name="pname" placeholder="Prenom" required pattern="[a-zA-Z0-9-]+">
-                <input type="text" name="adress" placeholder="Adresse">
-                <input type="text" name="city" placeholder="Ville">
-                <input type="text" name="postalCode" placeholder="Code postal">
-                <input type="number" name="age" placeholder="Age">
-                <input type="text" name="pseudo" placeholder="Pseudo" required maxlength="20" pattern="[a-zA-Z0-9-_\.]{1,20}$">
+                <input type="text" name="pseudo" placeholder="Identifiant" required maxlength="20" pattern="[a-zA-Z0-9-_\.]{1,20}$">
 
                 <input type="password" name="password" placeholder="Mot de passe " required>
                 <input type="text" name="mail" placeholder="E-mail" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
