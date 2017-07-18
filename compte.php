@@ -10,6 +10,7 @@ if (!empty($_POST)) { $req = $dbh->prepare('UPDATE user(name,pname,adress,city,p
       :name, :pname, :adress, :city, :postalCode, :age, :pseudo, :mail, :password
     )');
    
+
     $req->execute([
         
         ':name' => $_POST['name'],
@@ -77,6 +78,13 @@ echo '</pre>';*/ ?>
         </header>
     
 
+   </section>
+   <section id='second'>
+      <form  class="form" action="inscription.php">
+          
+      </form>
+       
+       
    </section>
     
   <script type="text/javascript" src="js/compte.js

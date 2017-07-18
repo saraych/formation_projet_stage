@@ -140,7 +140,7 @@
                 </form>
             </div>
         </div>
-
+    </section>
         <div class="bienvenue">
             <?php
          if(!empty($message))
@@ -168,7 +168,7 @@
                 <?php 
        include'inscription.php'?>
             </div>
-        </section>
+    
     </section>
 
 

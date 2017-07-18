@@ -1,36 +1,4 @@
-.for{
-    background-color: white;
-    width: 32%;
-    z-index: 1;
-    margin-top: -7;
-    position: absolute;
-    margin-left: 36%;
-    text-align: center;
-     border: 1px solid black;
-    padding-bottom: 21px;
-}
-
-input{
-    height: 20px;
-
-    font-family:"logo";
-    margin-bottom:8px;
-    border-radius:4px;
-    padding-left:3px;
-}
-.bouton{
-    margin-left: 40%;
-    margin-top:15px;
-    
-}
-h2{
-    text-align: center;
-}
-.for{
-    border-radius: 7px;
-}
-
-button.clo{
+button.clo {
     background-color: transparent;
     z-index: 1;
     border: none;
@@ -42,6 +10,14 @@ button.clo{
     top: 0;
     cursor: pointer;
 }
-.banner{
-    z-index:1;
+
+.clo:focus {
+    outline: none;
 }
+ .login-input.m{
+      margin-bottom: 4%;
+}
+.for{
+    width: 100%;
+}
+

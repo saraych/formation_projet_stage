@@ -15,7 +15,9 @@
         $res = $req->fetch();
       
     if ($passwordcrypt == $res['password'])
-    {                                                                     echo 'Password is valid!';
+    {                                                                    
+        
+        echo 'Password is valid!';
           $_SESSION['user'] = 
               [
               'name' => $name              
@@ -33,8 +35,6 @@
     { 
         echo 'Invalid password.'; 
     };
-
-
       
 /* if ($res = $req->fetch()) 
  { 

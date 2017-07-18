@@ -1,0 +1,50 @@
+.for{
+    background-color: white;
+    width: 32%;
+    z-index: 1;
+    margin-top: -7;
+    position: absolute;
+    margin-left: 36%;
+    text-align: center;
+     border: 1px solid black;
+    padding-bottom: 21px;
+}
+
+input{
+    height: 20px;
+
+    font-family:"logo";
+    margin-bottom:8px;
+    border-radius:4px;
+    padding-left:3px;
+}
+.bouton{
+    margin-left: 40%;
+    margin-top:15px;
+    
+}
+h2{
+    text-align: center;
+}
+.for{
+    border-radius: 7px;
+}
+
+button.clo{
+    background-color: transparent;
+    z-index: 1;
+    border: none;
+    left: 89%;
+    font-size: xx-large;
+    border-radius: 0px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.clo:focus{
+    outline: none;
+}
+.banner{
+    z-index:1;
+}
